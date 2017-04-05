@@ -1,1 +1,4 @@
-curl -v -u pateldivyesh6859@yahoo.in:Flowers71@ -X GET https://www.toggl.com/api/v8/me
+curl -v -u 7400f437a15d0842f532d09840c84a3c:api_token \
+	-H "Content-Type: application/json" \
+	-d '{"domain":"url.com"}' \
+	-X POST https://www.toggl.com/api/v9/me/cors
